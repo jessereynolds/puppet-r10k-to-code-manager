@@ -1,0 +1,15 @@
+forge 'http://forge.puppetlabs.com'
+
+mod 'puppetlabs/stdlib', '4.2.2'
+mod 'puppetlabs/concat', '1.2.4'
+mod 'puppetlabs/apache', '1.6.0'
+mod 'puppetlabs/mysql'
+
+mod 'gitinfo',
+  :git => 'root@git.workflow.example:/opt/gitrepos/puppet-gitinfo.git',
+  :ref => 'development'
+
+mod 'webdb',
+  :git => 'root@git.workflow.example:/opt/gitrepos/puppet-webdb.git',
+  :ref => 'master'
+
